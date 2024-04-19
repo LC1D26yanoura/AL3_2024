@@ -70,7 +70,7 @@ void GameScene::Draw() {
 	/// </summary>
 
 	model_->Draw(worldtransform_, debugCamera_->GetViewProjection(), textureHandle_);
-
+	　
 	// 3Dオブジェクト描画後処理
 	Model::PostDraw();
 #pragma endregion
